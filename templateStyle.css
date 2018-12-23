@@ -1,0 +1,29 @@
+body{
+    margin:0;
+    padding: 0;
+    font-family: 'Fira Sans', sans-serif;
+    /* background-image: url('bgImage.jpg');
+    background-repeat:no-repeat;
+    background-size: cover; */
+
+}
+
+.Title{
+    width:300px;
+    margin:0 auto;
+}
+iframe{
+    display:block;
+    margin:0 auto;
+}
+main{
+    width:100%;
+}
+.textContent{
+    width:90%;
+    margin:40px auto;
+}
+.extraResources{
+    width:90%;
+    margin:40px auto;
+}
