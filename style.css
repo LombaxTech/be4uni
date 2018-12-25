@@ -1,13 +1,88 @@
-    .unitOneTopics{
-        display:none;
-    }
-    
-    .unitOneTitle:hover {
-        cursor: pointer;
-        color:red;
-    }
+body{
+    margin:0;
+    padding:0;
+    font-family:Arial, Helvetica, sans-serif;
+    /* background: #C33764;  fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, #1D2671, #C33764);  Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to right, #1D2671, #C33764); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: rgba(0,0,255,0.5)
+}
+nav{
+    background: linear-gradient(blue,black);
+    /* background-color:blue; */
+    height:fit-content;
+    margin-bottom: 15px;
+}
+.navLinks{
+    padding:0;
+    margin:0;
+    list-style:none;
+    height: fit-content;
+    width:fit-content;
+    overflow: hidden;
+    padding:5px 0;
+    margin:0 auto;
+}
+.navLinks>li{
+    float: left;
+    margin:0 50px;
+    /* background-color:red; */
+    padding:15px 0;
+}
+.navLinks>li>a{
+    text-decoration: none;
+    font-size: 1.5em;
+    color:white;
+}
+.unitOneTitle:hover {
+    cursor: pointer;
+    color:red;
+}
+.unitTwoTitle:hover {
+    cursor: pointer;
+    color:red;
+} 
+main{
+    width:100%;
+}
+.subjects{
+    box-sizing: border-box;
+    width:fit-content;
+    margin:0 auto;
+    margin-bottom: 20px;
+    border:darkblue 5px solid;
+    border-radius: 20px;
+    padding:20px;
+    background-color: white;
+    /* background: -webkit-linear-gradient(to right, rgba(29,38,113,0), rgba(195,55,100,0));    */
+    /* background: linear-gradient(to right, rgba(29,38,113), rgba(195,55,100,0);  */
+}
+.physics{
+    margin-bottom:30px;
+}
+.subjectTitle{
+    width:fit-content;
+    margin:0 auto;
+    font-size:2.5em;
+    padding:10px 20px;;
+    border-radius: 20px;
+    /* background-color:blue; */
+    background: linear-gradient(blue,rgb(0-0-205));
+    color:white;
+}
+.unitList{
+    width:fit-content;
+    /* margin:0 auto; */
+}
 
-    .unitTwoTitle:hover {
-        cursor: pointer;
-        color:red;
-    }
+.topicTitle{
+    font-size:2em;
+    /* background-color: orange; */
+}
+.unitTopics{
+    font-size:1.5em;
+}
+
+.maths>.subjectTitle{
+    background-color: red;
+}

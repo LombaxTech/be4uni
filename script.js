@@ -25,3 +25,5 @@ function toggleUnitTwo(){
         unitTwoTopicsDisplay = true;
     }
 }
+
+var physics = document.getElementsByClassName('Physics')[0]
