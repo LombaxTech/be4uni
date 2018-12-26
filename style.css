@@ -1,11 +1,16 @@
 body{
+    height:100%;
+    width:100%;
     margin:0;
     padding:0;
     font-family:Arial, Helvetica, sans-serif;
     /* background: #C33764;  fallback for old browsers */
     /* background: -webkit-linear-gradient(to right, #1D2671, #C33764);  Chrome 10-25, Safari 5.1-6 */
     /* background: linear-gradient(to right, #1D2671, #C33764); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background: rgba(0,0,255,0.5)
+    background-image: linear-gradient(lightblue,blue,lightblue);
+    
+    
+    
 }
 nav{
     background: linear-gradient(blue,black);
@@ -13,6 +18,7 @@ nav{
     height:fit-content;
     margin-bottom: 15px;
 }
+
 .navLinks{
     padding:0;
     margin:0;
@@ -62,13 +68,16 @@ main{
 }
 .subjectTitle{
     width:fit-content;
-    margin:0 auto;
+    margin:10px auto;
     font-size:2.5em;
     padding:10px 20px;;
     border-radius: 20px;
     /* background-color:blue; */
     background: linear-gradient(blue,rgb(0-0-205));
     color:white;
+}
+.subjectTitle:hover{
+    cursor: pointer;
 }
 .unitList{
     width:fit-content;
@@ -85,4 +94,24 @@ main{
 
 .maths>.subjectTitle{
     background-color: red;
+}
+
+.subjects ul{
+    list-style: none;
+}
+.topicTitle{
+    background: linear-gradient(blue 50%, darkblue);
+    width:fit-content;
+    border-radius:20px;
+    padding: 5px 10px;
+    color:white;
+}
+.unitTopics>li{
+    width:fit-content;
+    background:linear-gradient(rgb(30,144,255) 50%,blue 45%);
+    color:white;
+    font-size:1.1em;
+    padding:5px 10px;
+    border-radius: 10px;
+    margin:5px 0;
 }

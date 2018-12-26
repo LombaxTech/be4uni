@@ -20,9 +20,33 @@
 
     <main>
         <div class="subjects">
+            <div class="maths">
+                <h1 class="subjectTitle" onclick="toggleMathContentDisplay()">Maths</h1>
+                <ul class="unitList mathContent">
+                    <li><h2 class="topicTitle">Unit 1 Pure Math A</h2></li>
+                        <ul class="unitTopics">
+                            <li class="topic">Proof</li>
+                                <ul class="subTopics">
+                                    <li class="subTopic">Part 1</li>
+                                    <li class="subTopic">Part 2</li>
+                                    <li class="subTopic">Part 3</li>
+                                </ul>
+                            <li class="topic">Algebra and Functions</li>
+                            <li class="topic">Co-ordinate Geometry</li>
+                            <li class="topic">Sequences and Series - Binomial Theorem</li>
+                            <li class="topic">Trigonometry</li>
+                            <li class="topic">Exponentials and Logarithms</li>
+                            <li class="topic">Differentiation</li>
+                            <li class="topic">Integration</li>
+                            <li class="topic">Vectors</li>
+                        </ul>
+                    <li><h2 class="topicTitle">Unit 2 Applied Math A</h2></li>
+                </ul>
+            </div>
+            
             <div class="physics">
-                <h1 class="subjectTitle">Physics</h1>
-                <ul class="unitList">
+                <h1 class="subjectTitle" onclick="togglePhysicsContentDisplay()">Physics</h1>
+                <ul class="unitList physicsContent">
                     <li><h2 class="topicTitle unitOneTitle" onClick="toggleUnitOne()">Unit 1: Motion, Energy and Matter</h2></li>
                     <ul class="unitTopics unitOneTopics">
                         <li>1.1 Basic Physics</li>
@@ -38,14 +62,6 @@
                 </ul>
             </div>
 
-            <div class="maths">
-                <h1 class="subjectTitle">Maths</h1>
-                <ul class="unitList">
-                    <li><h2 class="topicTitle">C1</h2></li>
-                    <li><h2 class="topicTitle">C2</h2></li>
-                </ul>
-            </div>
-            
         </div>
         
     </main>

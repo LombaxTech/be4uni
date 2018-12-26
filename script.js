@@ -27,3 +27,41 @@ function toggleUnitTwo(){
 }
 
 var physics = document.getElementsByClassName('Physics')[0]
+
+// var  = false;
+
+// function toggle(){
+//     if( == true){
+//         .style.display = 'none';
+//          = false;
+//     }else{
+//         .style.display = 'block';
+//          = true;
+//     }
+// }
+
+var mathContent = document.getElementsByClassName('mathContent')[0];
+var mathContnetDisplay = false;
+
+function toggleMathContentDisplay(){
+    if(mathContnetDisplay == true){
+        mathContent.style.display = 'none';
+        mathContnetDisplay = false;
+    }else{
+        mathContent.style.display = 'block';
+        mathContnetDisplay = true;
+    }
+}
+
+var physicsContent = document.getElementsByClassName('physicsContent')[0];
+var physicsContnetDisplay = false;
+
+function togglePhysicsContentDisplay(){
+    if(physicsContnetDisplay == true){
+        physicsContent.style.display = 'none';
+        physicsContnetDisplay = false;
+    }else{
+        physicsContent.style.display = 'block';
+        physicsContnetDisplay = true;
+    }
+}
