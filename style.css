@@ -13,12 +13,17 @@ body{
     
 }
 nav{
+    /* position: fixed;
+    top: 0; */
     background: linear-gradient(blue,black);
-    /* background-color:blue; */
+    width:100%;
     height:fit-content;
     margin-bottom: 15px;
 }
-
+main{
+    width:100%;
+    /* margin:80px 0; */
+}
 .navLinks{
     padding:0;
     margin:0;
@@ -35,10 +40,16 @@ nav{
     /* background-color:red; */
     padding:15px 0;
 }
+
 .navLinks>li>a{
     text-decoration: none;
     font-size: 1.5em;
     color:white;
+}
+.navLinks>li>a:hover{
+    color:blue;
+    background:white;
+    padding:15px 5px;
 }
 .unitOneTitle:hover {
     cursor: pointer;
@@ -48,12 +59,11 @@ nav{
     cursor: pointer;
     color:red;
 } 
-main{
-    width:100%;
-}
+
 .subjects{
     box-sizing: border-box;
     width:fit-content;
+    min-width: 500px;
     margin:0 auto;
     margin-bottom: 20px;
     border:darkblue 5px solid;
@@ -85,11 +95,14 @@ main{
 }
 
 .topicTitle{
-    font-size:2em;
+    font-size:1.7em;
     /* background-color: orange; */
 }
 .unitTopics{
-    font-size:1.5em;
+    display: none;
+    font-size:1.3em;
+    padding:0 20px;
+    
 }
 
 .maths>.subjectTitle{
@@ -106,12 +119,37 @@ main{
     padding: 5px 10px;
     color:white;
 }
+.topicTitle:hover{
+    cursor: pointer;
+}
 .unitTopics>li{
     width:fit-content;
-    background:linear-gradient(rgb(30,144,255) 50%,blue 45%);
+    background:linear-gradient(rgb(30,144,255) ,blue );
     color:white;
     font-size:1.1em;
     padding:5px 10px;
     border-radius: 10px;
     margin:5px 0;
 }
+
+footer{
+    width:100%;
+    /* position: absolute;
+    left: 0;
+    bottom:0;  */
+    background: linear-gradient(blue,black);
+    padding:30px 0;
+}
+.footerContent p{
+    color:white;
+    margin:auto 20px;
+}
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  
+main{
+    flex: 1;
+  }

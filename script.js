@@ -65,3 +65,17 @@ function togglePhysicsContentDisplay(){
         physicsContnetDisplay = true;
     }
 }
+
+var mathUnitOneContent = document.getElementsByClassName('mathUnitOneContent')[0];
+var mathUnitOneContentDisplay = false;
+
+function toggleMathUnitOneContentDisplay(){
+    if(mathUnitOneContentDisplay == true){
+        mathUnitOneContent.style.display = 'none';
+        mathUnitOneContentDisplay = false;
+    }else{
+        mathUnitOneContent.style.display = 'block';
+        mathUnitOneContentDisplay = true;
+    }
+}
+
