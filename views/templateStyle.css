@@ -1,0 +1,139 @@
+body{
+    margin:0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(lightblue,blue,lightblue);
+}
+nav{
+    background: linear-gradient(blue,black);
+    width:100%;
+    height:fit-content;
+    margin-bottom: 15px;
+}
+.navLinks{
+    padding:0;
+    margin:0;
+    list-style:none;
+    height: fit-content;
+    width:fit-content;
+    overflow: hidden;
+    padding:5px 0;
+    margin:0 auto;
+}
+.navLinks>li{
+    float: left;
+    margin:0 50px;
+    padding:15px 0;
+}
+
+.navLinks>li>a{
+    text-decoration: none;
+    font-size: 1.5em;
+    color:white;
+}
+.navLinks>li>a:hover{
+    color:blue;
+    background:white;
+    padding:15px 5px;
+}
+
+
+main{
+    width:90%;
+    margin:40px auto;
+    padding:20px;
+    border-radius: 30px;
+    background: white;
+}
+.general-title{
+    font-size:1.2em;
+}
+.general-title h1{
+    margin: 0 auto;
+    text-decoration: underline;
+    width: fit-content;
+}
+.page-navigation{
+    background:rgb(0,0,255,0.1);
+    padding:20px;
+    border-radius: 10px;
+    margin:20px 0;
+}
+.page-navigation h2{
+    text-decoration: underline;
+    /* background: rgb(0,0,255,0.1); */
+}
+.page-navigation ul{
+    margin-top: 0;
+    overflow: hidden;
+    margin-bottom:20px;
+    width:fit-content;
+    /* background: rgb(0,0,255,0.1); */
+    /* padding: 20px; */
+    /* border-radius: 10px; */
+}
+.page-navigation ul li:hover{
+    background: rgb(0,0,255,0.3);
+}
+.page-navigation a{
+    text-decoration: none;
+    color:black;
+    font-size: 1.2em
+}
+.video-section h1{
+    margin:10px auto;
+    text-decoration: underline;
+    width:fit-content;
+}
+.Title{
+    width:500px;
+    margin:0 auto;
+}
+iframe{
+    display:block;
+    margin:0 auto;
+}
+
+.note-section{
+    padding:10px;
+    border-radius: 10px;
+    background: rgb(173,255,47,0.3);
+    margin-top:10px;
+}
+.note-section h1{
+    text-decoration: underline;
+    margin:0 auto;
+    width:fit-content;
+}
+
+.problem-section{
+    background: rgb(64,225,208,0.3);
+    margin-top:10px;
+    padding-top:20px;
+    border-radius: 10px;
+}
+.problem-section h1{
+    margin:0 auto;
+    width:fit-content
+}
+footer{
+    width:100%;
+    /* position: absolute;
+    left: 0;
+    bottom:0;  */
+    background: linear-gradient(blue,black);
+    padding:30px 0;
+}
+.footerContent p{
+    color:white;
+    margin:auto 20px;
+}
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  
+main{
+    flex: 1;
+  }
